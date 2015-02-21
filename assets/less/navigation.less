@@ -1,0 +1,25 @@
+// --------------------------------------------------
+//  Navigation
+// --------------------------------------------------
+
+.navbar-animated {
+  transition: all .4s linear;
+
+  .navbar-header {
+    transition: all .4s linear;
+  }
+
+  &.navbar-transparent {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+
+    .navbar-header {
+      opacity: 0;
+    }
+
+    .navbar-nav li a {
+      color: rgba( 255, 255, 255, 0.4 );
+    }
+  }
+}
