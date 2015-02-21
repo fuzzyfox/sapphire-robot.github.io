@@ -28,7 +28,7 @@ module.exports = function( grunt ) {
           sourceMapBasepath: 'public/'
         },
         files: {
-          'public/assets/css/site.css': 'public/assets/less/**/*.less'
+          'public/assets/css/site.css': 'public/assets/less/site.less'
         }
       }
     },
