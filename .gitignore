@@ -1,3 +1,9 @@
+# Project Specifig
+public/vendor
+public/assets/css
+public/assets/js/site.js
+public/assets/js/site.js.map
+
 # Logs
 logs
 *.log

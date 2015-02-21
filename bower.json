@@ -1,0 +1,26 @@
+{
+  "name": "sapphire-robot.github.io",
+  "version": "0.1.0",
+  "homepage": "sapphire-robot.github.io",
+  "authors": [
+    "William Duyck <fuzzyfox0@gmail.com>",
+    "Joe Harrison <joehazzers@gmail.com>"
+  ],
+  "description": "Landing page why not?",
+  "license": "MPL-2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.3.0",
+    "openwebicons": "~1.3.1",
+    "bootstrap": "~3.3.2",
+    "cornify": "cornify/cornify"
+  }
+}
