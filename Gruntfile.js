@@ -112,7 +112,8 @@ module.exports = function( grunt ) {
     // deploy to gh-pages
     'gh-pages': {
       options: {
-        base: 'public'
+        base: 'public',
+        branch: 'master'
       },
       src: [ '**' ]
     }
